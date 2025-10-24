@@ -1,10 +1,17 @@
-const age = 16;
-var Name = "Tima"
-let Legal = false
-const IQ = null;
-const wow = 
+let age = 16;
+let Iq = 20;
+let heigth = 17;
 
-console.log(typeof age , Legal, IQ, );
-console.log(typeof Name);
 
-console.log(typeof wow);
+
+
+let person = {
+age: age,
+Iq: Iq,
+heigth: heigth
+}
+
+console.log(person);
+
+
+
