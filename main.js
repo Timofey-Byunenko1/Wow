@@ -7,4 +7,31 @@ const wow =
 console.log(typeof age , Legal, IQ, );
 console.log(typeof Name);
 
-console.log(typeof wow);
+console.log(typeof wow); 
+
+
+//homework 2 //
+
+let ag = 16;
+let Iq = 20;
+let heigth = 17;
+
+
+
+let person = {
+age: ag,
+Iq: Iq,
+heigth: heigth
+}
+
+console.log(person);
+
+
+
+//homework 3//
+
+const number = 10369;
+
+const exit = number.toString().split('')
+console.log(exit);
+ 
